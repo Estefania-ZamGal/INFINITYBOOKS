@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- CONFIGURACIÓN -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0" >
+        <title>Infinity Books</title>
+
+        <!-- FAVICON -->
+        <link rel="icon" type="image/png" href="../favicon.jpg">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../css/stiles.css">
+
+        <!--Banco de ICONOS-->
+        <script src="https://kit.fontawesome.com/3df8c736cd.js" crossorigin="anonymous"></script>
+
+
+    </head>
+    <body >
+        <!-- CABECERA: Barra navegación, logo, búsqueda, ...-->
+
+        <header>
+            <!--Barra de navegación-->
+            <nav>
+                <ul class="barraNavegacion">
+                    <li><img src="../favicon.jpg" class="logoweb" alt="Logo de la web"> </li>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li style="background: linear-gradient(to bottom right,  #ff006a, #ffffff)"><a href="presupuesto.html">Presupuestos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <!-- PRINCIPAL: Contenido principal  -->
+        <main>
+            <form>
+                <p>Nombre <input type="text" placeholder="Nombre" pattern="[A-Za-z\s]+" required></p>
+                <p>Apellidos <input type="text" placeholder="Apellidos" pattern="[A-Za-z\s]+" required></p>
+                <p>Telefono <input type="tel" placeholder="+34" pattern="\+34\d{9}" required></p>
+                <p>E-mail <input type="email" placeholder="ejemplo@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></p>
+                <p>Solicite mas informacion en el recuadro de abajo:</p>
+                <p><textarea cols="30" rows="10" placeholder="Deje aquí su comentario"></textarea></p>
+                
+                <input type="checkbox" required><label>Política de privacidad</label><br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetear/Borrar">
+            </form>   
+        </main>
+
+        <!-- FOOTER: Pie de página, accesos a RRSS, aviso legal,  -->
+        <footer class="pie-pagina">
+            
+            <div class="grupo-2">
+                <small>&copy; 2025 <b>Infinity Books</b> - Todos los derechos reservdos.</small>
+                <small>Este sitio está sujeto a los <a href="aviso-legal.html" target="_blank">términos y condiciones</a> y <a href="politica-privacidad.html" target="_blank">política de privacidad</a></small>
+                <small>Calle Goya con Calle Real, El Sexmo, 29580 Málaga.</small>
+                
+                <div class="red-social">
+                    <a href="https://www.facebook.com/?locale=es_ES" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                    <a href="https://www.youtube.com/?app=desktop&hl=es" class="fa fa-youtube"></a>
+                    <a href="https://x.com/?lang=es&mx=2" class="fa fa-x"></a>
+                 </div>
+               
+            </div>
+
+        </footer>
+
+
+    </body>
+</html>
